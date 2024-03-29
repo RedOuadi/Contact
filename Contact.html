@@ -1,9 +1,101 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
-    <title>QUIZ</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+  <link href="Contact.css" rel="stylesheet" />
+  <title>Contacts</title>
 </head>
+<div>
+<div class="container">
+<div class="left">
+  <!--- Search contact-->
+<div class="search-bar">
+<div class="input-group">
+  <div class="form-outline" data-mdb-input-init>
+    <input type="search" id="form1" class="form-control" />
+    <label class="form-label" for="form1">Search</label>
+  </div>
+  <button type="button" class="btn btn-primary" data-mdb-ripple-init>
+    <i class="fas fa-search"></i>
+  </button>
+</div>
+</div>
+
+<div class="rectangle"></div>
+<span class="profile-text">Mon profile</span>
+<span class="name"><img src="Charles Asare.png" alt="" /> Charles Asare</span>
+<span class="name"><img src="David sarpong.png" alt="" /> David Sarpong</span>
+<span class="name"><img src="Tony Bonz.png" alt="" /> Tony Bonz</span>
+<span class="name"><img src="Simon.png" alt="" /> Simon</span>
+<span class="name"><img src="David sarpong2.png" alt="" /> David Sarpong2</span>
+<span class="name"><img src="Abigal Nartey.png" alt="" /> Abigal Nartey</span>
+<span class="name"><img src="Samuel Tetteh.png" alt="" /> Samuel Tetteh</span>
+<span class="name"><img src="Bernand Kyel.png" alt="" /> Bernand Kyel</span>
+<span class="name"><img src="bro. Ben.png" alt="" /> Bro. Ben</span>
+
+</div>
+
+<div class="right">
+  <form class="custom-form " style="overflow-y: auto; height: 100vh">
+    <img src="Daco_2956244.png" alt="Profile Picture" class="img-fluid mx-auto d-block rounded-circle mb-4" style="width: 150px; height: 150px;">
+    <!-- 2 column grid layout with text inputs for the first and last names -->
+    <div class="row mb-4">
+      <div class="col">
+        <div data-mdb-input-init class="form-outline">
+          <input type="text" id="form6Example1" class="form-control" />
+          <label class="form-label" for="form6Example1">First name</label>
+        </div>
+      </div>
+      <div class="col">
+        <div data-mdb-input-init class="form-outline">
+          <input type="text" id="form6Example2" class="form-control" />
+          <label class="form-label" for="form6Example2">Last name</label>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Text input -->
+    <div data-mdb-input-init class="form-outline mb-4">
+      <input type="text" id="form6Example3" class="form-control" />
+      <label class="form-label" for="form6Example3">Company name</label>
+    </div>
+  
+    <!-- Text input -->
+    <div data-mdb-input-init class="form-outline mb-4">
+      <input type="text" id="form6Example4" class="form-control" />
+      <label class="form-label" for="form6Example4">Address</label>
+    </div>
+  
+    <!-- Email input -->
+    <div data-mdb-input-init class="form-outline mb-4">
+      <input type="email" id="form6Example5" class="form-control" />
+      <label class="form-label" for="form6Example5">Email</label>
+    </div>
+  
+    <!-- Number input -->
+    <div data-mdb-input-init class="form-outline mb-4">
+      <input type="number" id="form6Example6" class="form-control" />
+      <label class="form-label" for="form6Example6">Phone</label>
+    </div>
+  
+    <!-- Message input -->
+    <div data-mdb-input-init class="form-outline mb-4">
+      <textarea class="form-control" id="form6Example7" rows="4"></textarea>
+      <label class="form-label" for="form6Example7">Additional information</label>
+    </div>
+  
+
+  
+    <!-- Submit button -->
+    <button data-mdb-ripple-init type="button" class="btn btn-primary btn-block mb-4 center-button"  style="background-color: #000000; border: none; color: #ffffff;">enregistrer</button>
+
+  </form>
+</div>
+
+</div>
+</div>
+<script src="Contact.js"></script>
+</body>
 </html>
