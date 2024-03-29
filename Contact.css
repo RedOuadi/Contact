@@ -64,5 +64,9 @@ flex-direction: column;
     color:white;
     text-decoration:none;
     }
+    .name{
+      margin-top: 20px;
+      /* margin-bottom: 20px; */
+    }
 
 
