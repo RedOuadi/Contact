@@ -13,7 +13,7 @@ body {
   box-sizing: border-box;  */
 }
 .left{
-width: 530px;
+width: 35%;
 height: 964px;
 background-color: #3D96E8;
 display: flex;
@@ -21,7 +21,7 @@ flex-direction: column;
 
 }
 .right{
-  width:980px;
+  width:65%;
   height: 964px;
   background-color:#647953;
 
